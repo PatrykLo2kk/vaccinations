@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vaccinations</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <link rel="apple-touch-icon" href="medicine.png"/>
+    <meta name="viewport" content="width=device-width" />
+</head>
+<body>
+    <header id="header">COVID-19 Vaccinations</header>
+    <main>
+        <br>
+        <p id="clock"></p>
+        <br>
+        <div id="menu_button" style="display: none;">
+            <p>Hello</p>
+            <br>
+            <p>Hello</p>
+            <br>
+            <p>Hello</p>
+            <br>
+            <p>Hello</p>
+            <br>
+        </div>
+        <br>
+        <button id="menu" onclick="menuClick()"><img id="menu_picture" src="/myApp/www/img/menu.png"></button>
+        <div id="list">
+            <button id="back" class="button" onclick="backClick()" style="display:none">BACK</button>
+            <button id="button_main" class="button" onclick="mainClick()" style="display:none">MAIN</button>
+            <button id="button_poland" class="button" onclick="polandClick()" style="display:none">Poland</button>
+            <button id="button_germany" class="button" onclick="germanyClick()" style="display:none">Germany</button>
+            <button id="button_czech" class="button" onclick="czechClick()" style="display:none">Czech Republic</button>
+            <button id="button_slovakia" class="button" onclick="slovakiaClick()" style="display:none">Slovakia</button>
+            <button id="button_ukraine" class="button" onclick="ukraineClick()" style="display:none">Ukraine</button>
+            <button id="button_belarus" class="button" onclick="belarusClick()" style="display:none">Belarus</button>
+            <button id="button_lithuania" class="button" onclick="lithuaniaClick()" style="display:none">Lithuania</button>
+            <button id="button_russia" class="button" onclick="russiaClick()" style="display:none">Russia</button>
+            <button id="button_europe" class="button" onclick="europeClick()" style="display:none">Europe</button>
+            <button id="button_world" class="button" onclick="worldClick()" style="display:none">World</button>
+            <button id="button_vaccinations" class="button" onclick="vaccinationsClick()" style="display:none">Vaccinations</button>
+            <button id="button_info_vaccinations" class="button" onclick="infoAboutVaccinationsClick()" style="display:none">Info About Vaccinations</button>
+            <button id="button_about_author" class="button" onclick="aboutAuthorClick()" style="display:none">About Author</button>
+        </div>
+        
+        <br>
+        FILMS
+        <br>
+        <div>
+            <ol>
+                <li>We Can Do It! We Can Stop The Spread of COVID-19</li>
+                <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Yf15RC7Irt0" title="YouTube video player" frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <br>
+                <br>
+                <br>
+                <li>Advantages of getting vaccinated against COVID-19</li>
+                <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/6QdHD4J18vk" title="YouTube video player" frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <br>
+                <br>
+                <br>
+                <li>How mRNA Vaccines Work</li>
+                <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/NeQ9ssmwG3w" title="YouTube video player" frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <br>
+                <br>
+                <br>
+                <li>The road to a COVID-19 vaccine</li>
+                <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/CrsnwQZIak8" title="YouTube video player" frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <br>
+                <br>
+                <br>
+                <li>Safety of COVID-19 vaccines – what we need to know</li>
+                <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/QANLh7B8kv4" title="YouTube video player" frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <br>
+                <br>
+                <br>
+                <li>COVID-19 Vaccines Explained in 4 Levels of Difficulty | UNICEF</li>
+                <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/n5CLKOnfBuM" title="YouTube video player" frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </ol>
+        </div>
+
+        
+    </main>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="vaccinations.css">
+    <script src="vaccinations.js"></script>
+</body>
+</html>
